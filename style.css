@@ -104,6 +104,11 @@ button:hover {
   filter: brightness(110%);
 }
 
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 /* Countdown */
 ul {
   display: inline-flex;

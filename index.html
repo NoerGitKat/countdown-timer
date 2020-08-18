@@ -25,9 +25,10 @@
             type="text"
             id="title"
             placeholder="What are you counting down to?"
+            required
           />
           <label for="date-picker">Select a Date:</label>
-          <input type="date" id="date-picker" />
+          <input type="date" id="date-picker" required />
           <button type="submit">Submit</button>
         </form>
       </div>
@@ -45,7 +46,7 @@
       <!-- Complete -->
       <div class="complete-timer" id="complete-timer" hidden>
         <h1 class="complete-title">Countdown Complete</h1>
-        <h1 id="complete-info">Countdown Finished on 05-10-2020</h1>
+        <h1 id="complete-info"></h1>
         <button id="complete-button">Start New Countdown</button>
       </div>
     </div>
