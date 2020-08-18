@@ -107,7 +107,6 @@ button:hover {
 /* Countdown */
 ul {
   display: inline-flex;
-  margin-left: -45px;
 }
 
 li {
@@ -124,7 +123,7 @@ li span {
 }
 
 /* Complete */
-.complete {
+.complete-timer {
   position: relative;
   top: 60px;
 }
